@@ -32,7 +32,7 @@ client.on("ready", () => {
 });
 
 client.on("message", async (interaction) => {
-  if (interaction.author.id !== "689477119796969581") {
+  if (interaction.author.id !== "USER_ID") {
     return;
   }
 
